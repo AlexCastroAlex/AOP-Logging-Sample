@@ -1,0 +1,2 @@
+E:\Sources\Exakis\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\obj\Debug\net6.0\PostSharp\PostSharp.Compiler.Engine.dll
+E:\Sources\Exakis\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\postsharp.config

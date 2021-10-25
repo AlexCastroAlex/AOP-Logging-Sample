@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj": {}
+  },
+  "projects": {
+    "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
+        "projectName": "AOP-Logging-PostSharp-Sample",
+        "projectPath": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://exakis-lyn-log-net.pkgs.visualstudio.com/_packaging/Gravotech.Econnect/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PostSharp": {
+              "target": "Package",
+              "version": "[6.9.11, )"
+            },
+            "PostSharp.Patterns.Diagnostics": {
+              "target": "Package",
+              "version": "[6.9.11, )"
+            },
+            "PostSharp.Patterns.Diagnostics.Serilog": {
+              "target": "Package",
+              "version": "[6.9.11, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.ColoredConsole": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

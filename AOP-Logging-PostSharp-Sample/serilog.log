@@ -1,0 +1,49 @@
+2021-10-25 10:57:52 [Information] Hello, world.
+2021-10-25 12:01:02 [Information] Hello, world.
+2021-10-25 15:56:59.761 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Starting.
+2021-10-25 15:56:59.775 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Succeeded.
+2021-10-25 15:56:59.776 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Exited.
+2021-10-25 15:56:59.877 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Starting. args: {"repository":{}}
+2021-10-25 15:56:59.878 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Succeeded.
+2021-10-25 15:56:59.878 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Exited.
+2021-10-25 15:56:59.879 +02:00 [INF] test
+2021-10-25 15:56:59.880 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Starting.
+2021-10-25 15:56:59.881 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_GetArticles - Starting.
+2021-10-25 15:56:59.882 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.cctor - Starting.
+2021-10-25 15:56:59.883 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.cctor - Succeeded.
+2021-10-25 15:56:59.884 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.cctor - Exited.
+2021-10-25 15:56:59.885 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_GetArticles - Succeeded.
+2021-10-25 15:56:59.886 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_GetArticles - Exited.
+2021-10-25 15:56:59.887 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Succeeded.
+2021-10-25 15:56:59.888 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Exited.
+2021-10-25 15:57:13.830 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Starting.
+2021-10-25 15:57:13.840 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Succeeded.
+2021-10-25 15:57:13.841 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Exited.
+2021-10-25 15:57:13.842 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Starting. args: {"repository":{}}
+2021-10-25 15:57:13.843 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Succeeded.
+2021-10-25 15:57:13.844 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Exited.
+2021-10-25 15:57:13.846 +02:00 [INF] test
+2021-10-25 15:57:13.846 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Starting.
+2021-10-25 15:57:13.847 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_GetArticles - Starting.
+2021-10-25 15:57:13.848 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_GetArticles - Succeeded.
+2021-10-25 15:57:13.851 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_GetArticles - Exited.
+2021-10-25 15:57:13.852 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Succeeded.
+2021-10-25 15:57:13.852 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Exited.
+2021-10-25 16:08:07.118 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Starting.
+2021-10-25 16:08:07.131 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Succeeded.
+2021-10-25 16:08:07.132 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Exited.
+2021-10-25 16:08:07.223 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Starting. args: {"repository":{}}
+2021-10-25 16:08:07.224 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Succeeded.
+2021-10-25 16:08:07.224 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Exited.
+2021-10-25 16:08:07.238 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_AddArticle - Starting. args: {"article":{"Id":-1,"Name":"string","Author":"string","PublishDate":"2021-10-25T14:08:01.606Z"}}
+2021-10-25 16:08:07.293 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_AddArticle - Failed. message: invalid id parameter for AOP_Logging_PostSharp_Sample.Common.Models.Article
+2021-10-25 16:08:12.050 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_AddArticle - Exited.
+2021-10-25 16:10:31.688 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Starting.
+2021-10-25 16:10:31.702 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Succeeded.
+2021-10-25 16:10:31.705 +02:00 [INF] AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository_.ctor - Exited.
+2021-10-25 16:10:31.800 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Starting. args: {"repository":{}}
+2021-10-25 16:10:31.801 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Succeeded.
+2021-10-25 16:10:31.802 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Exited.
+2021-10-25 16:10:31.816 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_AddArticle - Starting. args: {"article":{"Id":0,"Name":"string","Author":"string","PublishDate":"2021-10-25T14:10:28Z"}}
+2021-10-25 16:10:31.869 +02:00 [ERR] AOP_Logging_PostSharp_Sample.Services.ArticleService_AddArticle - Failed. message: invalid id parameter for AOP_Logging_PostSharp_Sample.Common.Models.Article
+2021-10-25 16:10:55.429 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_AddArticle - Exited.
