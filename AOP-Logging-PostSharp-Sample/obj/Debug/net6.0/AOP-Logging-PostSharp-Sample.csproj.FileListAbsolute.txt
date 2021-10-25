@@ -46,3 +46,4 @@ E:\Sources\Exakis\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\bin\
 E:\Sources\Exakis\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
 E:\Sources\Exakis\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
 E:\Sources\Exakis\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+E:\Sources\Exakis\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\obj\Debug\net6.0\AOP-Logging-PostSharp-Sample.csproj.AssemblyReference.cache

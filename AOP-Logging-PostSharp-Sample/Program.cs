@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddLogging();
 builder.Services.AddScoped<IArticleRepository, ArticleRepository>();
 builder.Services.AddScoped<IArticleService, ArticleService>();
-Serilog.Log.Logger = new LoggerConfiguration()
+Log.Logger = new LoggerConfiguration()
             .WriteTo.ColoredConsole()
             .WriteTo.File("serilog.log")
             .CreateLogger();
@@ -32,6 +32,11 @@ if (app.Environment.IsDevelopment())
 app.MapGet("/articles",  (IArticleService service) =>
 {
     return  service.GetArticles();
+});
+
+app.MapGet("/article", (IArticleService service, int id) =>
+{
+    return service.GetArticle(id);
 });
 
 app.MapPost("addArticle", (IArticleService service, Article article) =>

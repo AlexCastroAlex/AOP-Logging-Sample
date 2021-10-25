@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using PostSharp.Aspects;
 using PostSharp.Serialization;
+using System.Diagnostics;
 
 namespace AOP_Logging_PostSharp_Sample.Common.Aspects
 {
@@ -9,6 +10,7 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
     [PSerializable]
     public class Log : OnMethodBoundaryAspect
     {
+
 
         /// <summary>
         /// Method executed before the body of methods to which this aspect is applied.
@@ -25,6 +27,7 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
                 // Serialize to JSON (Newtonesof lib)
                 logDescription += $" args: {JsonConvert.SerializeObject(parameters)}";
             }
+
             Serilog.Log.Information(logDescription);
         }
 
@@ -65,6 +68,8 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
             Serilog.Log.Error(logDescription);
         }
     }
+
+
 }
 
 
