@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="69" PostSharpLinesOfCode="0" EnhancedTypesCount="3" SchemaVersion="1" PostSharpVersion="6.9.11.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="73" PostSharpLinesOfCode="0" EnhancedTypesCount="3" SchemaVersion="1" PostSharpVersion="6.9.11.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[PostSharp]PostSharp.Serialization.PSerializableAttribute">
-    <Instance Declaration="#2=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log" Id="51ca530766d34bdb">
+    <Instance Declaration="#2=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log" Id="51ca5307cb7b5a01">
       <Target />
     </Instance>
   </Class>
   <Class Class="#2">
-    <Instance Declaration="#3=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService" Id="51ca5307990ffb25">
+    <Instance Declaration="#3=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService" Id="51ca530719278dac">
       <Target Target="#4=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService::#ctor([AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.IArticleRepository)" LinesAvoided="8">
         <JoinPoint Description="#5=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
       </Target>
@@ -20,7 +20,7 @@
         <JoinPoint Description="#5" Ordinal="3" />
       </Target>
     </Instance>
-    <Instance Declaration="#9=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository" Id="51ca5307e1029e6e">
+    <Instance Declaration="#9=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository" Id="51ca5307d65c8c53">
       <Target Target="#10=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository::GetArticles()" LinesAvoided="8">
         <JoinPoint Description="#5" Ordinal="4" />
       </Target>

@@ -6,7 +6,7 @@ namespace AOP_Logging_PostSharp_Sample.Repositories
     [Log]
     public class ArticleRepository :IArticleRepository
     {
-        private static readonly IEnumerable<Article> Articles = new List<Article>
+        private static readonly List<Article> Articles = new List<Article>
         {
             new Article
             {

@@ -35,6 +35,11 @@ namespace AOP_Logging_PostSharp_Sample.Services
             {
                 throw new ArgumentException($"invalid id parameter for {typeof(Article)}");
             }
+            else if(_repository.GetArticles().Any(c=>c.Id ==article.Id))
+            {
+                throw new ArgumentException($"already existing article {typeof(Article)}");
+            }
+
             var articleAdded = _repository.AddArticle(article);
             return articleAdded;
         }
