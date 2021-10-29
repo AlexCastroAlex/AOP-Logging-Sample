@@ -1,45 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="73" PostSharpLinesOfCode="0" EnhancedTypesCount="3" SchemaVersion="1" PostSharpVersion="6.9.11.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="93" PostSharpLinesOfCode="0" EnhancedTypesCount="1" SchemaVersion="1" PostSharpVersion="6.9.11.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[PostSharp]PostSharp.Serialization.PSerializableAttribute">
-    <Instance Declaration="#2=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log" Id="51ca53071cd07850">
+    <Instance Declaration="#2=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log" Id="51ca530702c254de">
       <Target />
     </Instance>
   </Class>
-  <Class Class="#2">
-    <Instance Declaration="#3=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService" Id="51ca53071709f859">
-      <Target Target="#4=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService::#ctor([AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.IArticleRepository)" LinesAvoided="8">
-        <JoinPoint Description="#5=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
-      </Target>
-      <Target Target="#6=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService::GetArticles()" LinesAvoided="8">
-        <JoinPoint Description="#5" />
-      </Target>
-      <Target Target="#7=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService::GetArticle(System.Int32)" LinesAvoided="8">
-        <JoinPoint Description="#5" Ordinal="2" />
-      </Target>
-      <Target Target="#8=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Services.ArticleService::AddArticle([AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Models.Article)" LinesAvoided="8">
-        <JoinPoint Description="#5" Ordinal="3" />
-      </Target>
-    </Instance>
-    <Instance Declaration="#9=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository" Id="51ca53072561f0ee">
-      <Target Target="#10=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository::GetArticles()" LinesAvoided="8">
-        <JoinPoint Description="#5" Ordinal="4" />
-      </Target>
-      <Target Target="#11=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository::GetArticle(System.Int32)" LinesAvoided="8">
-        <JoinPoint Description="#5" Ordinal="5" />
-      </Target>
-      <Target Target="#12=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository::AddArticle([AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Models.Article)" LinesAvoided="8">
-        <JoinPoint Description="#5" Ordinal="6" />
-      </Target>
-      <Target Target="#13=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository::#ctor()" LinesAvoided="8">
-        <JoinPoint Description="#5" Ordinal="7" />
-      </Target>
-      <Target Target="#14=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository::#cctor()" LinesAvoided="8">
-        <JoinPoint Description="#5" Ordinal="8" />
-      </Target>
-    </Instance>
-  </Class>
-  <Annotation Target="#15=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#16=2" Description="#17=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
-  <Annotation Target="#18=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#16" Description="#17" />
-  <Annotation Target="#19=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#16" Description="#17" />
-  <Annotation Target="#20=M:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#16" Description="#17" />
 </Symbols>

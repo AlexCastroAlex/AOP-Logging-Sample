@@ -3,7 +3,6 @@ using AOP_Logging_PostSharp_Sample.Common.Models;
 
 namespace AOP_Logging_PostSharp_Sample.Repositories
 {
-    [Log]
     public class ArticleRepository :IArticleRepository
     {
         private static readonly List<Article> Articles = new List<Article>

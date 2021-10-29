@@ -4,7 +4,6 @@ using AOP_Logging_PostSharp_Sample.Repositories;
 
 namespace AOP_Logging_PostSharp_Sample.Services
 {
-    [Log]
     public class ArticleService : IArticleService
     {
         private readonly IArticleRepository _repository;

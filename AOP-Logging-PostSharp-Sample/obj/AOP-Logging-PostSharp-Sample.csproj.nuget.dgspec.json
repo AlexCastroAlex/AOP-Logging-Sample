@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj": {}
+    "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj": {}
   },
   "projects": {
-    "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj": {
+    "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
+        "projectUniqueName": "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
         "projectName": "AOP-Logging-PostSharp-Sample",
-        "projectPath": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\obj\\",
+        "projectPath": "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
+        "packagesPath": "C:\\Users\\alexandre.castro\\.nuget\\packages\\",
+        "outputPath": "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexandre.castro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -48,6 +47,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -71,6 +74,10 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             },
             "Serilog.Extensions.Logging": {
               "target": "Package",

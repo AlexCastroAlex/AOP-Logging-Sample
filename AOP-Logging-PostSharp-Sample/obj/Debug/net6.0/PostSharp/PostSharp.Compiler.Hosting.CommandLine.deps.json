@@ -238,7 +238,7 @@
         "runtime": {},
         "runtimeTargets": {}
       },
-      "System.Dynamic.Runtime/4.0.11": {
+      "System.Dynamic.Runtime/4.3.0": {
         "dependencies": {},
         "runtime": {},
         "runtimeTargets": {}
@@ -584,6 +584,36 @@
         },
         "runtimeTargets": {}
       },
+      "Castle.Core/4.4.1": {
+        "dependencies": {},
+        "runtime": {
+          "lib/netstandard1.5/Castle.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.4.1.0"
+          }
+        },
+        "runtimeTargets": {}
+      },
+      "Microsoft.AspNetCore.Http/2.2.2": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.2.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
       "Microsoft.DotNet.PlatformAbstractions/2.0.4": {
         "dependencies": {},
         "runtime": {
@@ -654,6 +684,11 @@
         "runtime": {},
         "runtimeTargets": {}
       },
+      "Microsoft.Extensions.ObjectPool/2.2.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
       "Microsoft.Extensions.Options/5.0.0": {
         "dependencies": {},
         "runtime": {},
@@ -665,6 +700,11 @@
         "runtimeTargets": {}
       },
       "Microsoft.Extensions.Primitives/5.0.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {},
         "runtime": {},
         "runtimeTargets": {}
@@ -745,6 +785,16 @@
           "lib/net5.0/Serilog.AspNetCore.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "4.1.0.0"
+          }
+        },
+        "runtimeTargets": {}
+      },
+      "Serilog.Enrichers.CorrelationId/3.0.1": {
+        "dependencies": {},
+        "runtime": {
+          "lib/netstandard2.1/Serilog.Enrichers.CorrelationId.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
           }
         },
         "runtimeTargets": {}
@@ -869,6 +919,21 @@
         "runtime": {},
         "runtimeTargets": {}
       },
+      "System.Collections.NonGeneric/4.3.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "System.ComponentModel/4.3.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
       "System.ComponentModel.Composition/5.0.0": {
         "dependencies": {},
         "runtime": {
@@ -879,12 +944,27 @@
         },
         "runtimeTargets": {}
       },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "System.ComponentModel.TypeConverter/4.3.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
       "System.Console/4.3.0": {
         "dependencies": {},
         "runtime": {},
         "runtimeTargets": {}
       },
       "System.Diagnostics.DiagnosticSource/4.3.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "System.Diagnostics.TraceSource/4.3.0": {
         "dependencies": {},
         "runtime": {},
         "runtimeTargets": {}
@@ -959,7 +1039,17 @@
         "runtime": {},
         "runtimeTargets": {}
       },
+      "System.Text.Encodings.Web/4.5.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
       "System.Threading.Timer/4.3.0": {
+        "dependencies": {},
+        "runtime": {},
+        "runtimeTargets": {}
+      },
+      "System.Xml.XmlDocument/4.3.0": {
         "dependencies": {},
         "runtime": {},
         "runtimeTargets": {}
@@ -1319,12 +1409,12 @@
       "path": "system.diagnostics.tracing/4.3.0",
       "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
     },
-    "System.Dynamic.Runtime/4.0.11": {
+    "System.Dynamic.Runtime/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "",
-      "path": "system.dynamic.runtime/4.0.11",
-      "hashPath": "system.dynamic.runtime.4.0.11.nupkg.sha512"
+      "path": "system.dynamic.runtime/4.3.0",
+      "hashPath": "system.dynamic.runtime.4.3.0.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
@@ -1655,6 +1745,41 @@
       "path": "",
       "hashPath": ""
     },
+    "Castle.Core/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "castle.core/4.4.1",
+      "hashPath": "castle.core.4.4.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http/2.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.aspnetcore.http/2.2.2",
+      "hashPath": "microsoft.aspnetcore.http.2.2.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.WebUtilities/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.aspnetcore.webutilities/2.2.0",
+      "hashPath": "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512"
+    },
     "Microsoft.DotNet.PlatformAbstractions/2.0.4": {
       "type": "package",
       "serviceable": true,
@@ -1739,6 +1864,13 @@
       "path": "microsoft.extensions.logging.abstractions/5.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.ObjectPool/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.extensions.objectpool/2.2.0",
+      "hashPath": "microsoft.extensions.objectpool.2.2.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Options/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1759,6 +1891,13 @@
       "sha512": "",
       "path": "microsoft.extensions.primitives/5.0.0",
       "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Net.Http.Headers/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.net.http.headers/2.2.0",
+      "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
@@ -1829,6 +1968,13 @@
       "sha512": "",
       "path": "serilog.aspnetcore/4.1.0",
       "hashPath": "serilog.aspnetcore.4.1.0.nupkg.sha512"
+    },
+    "Serilog.Enrichers.CorrelationId/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "serilog.enrichers.correlationid/3.0.1",
+      "hashPath": "serilog.enrichers.correlationid.3.0.1.nupkg.sha512"
     },
     "Serilog.Extensions.Hosting/4.1.2": {
       "type": "package",
@@ -1921,12 +2067,47 @@
       "path": "system.appcontext/4.3.0",
       "hashPath": "system.appcontext.4.3.0.nupkg.sha512"
     },
+    "System.Collections.NonGeneric/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.collections.nongeneric/4.3.0",
+      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Specialized/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.collections.specialized/4.3.0",
+      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.componentmodel/4.3.0",
+      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
+    },
     "System.ComponentModel.Composition/5.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "",
       "path": "system.componentmodel.composition/5.0.0",
       "hashPath": "system.componentmodel.composition.5.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.TypeConverter/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.componentmodel.typeconverter/4.3.0",
+      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
     },
     "System.Console/4.3.0": {
       "type": "package",
@@ -1941,6 +2122,13 @@
       "sha512": "",
       "path": "system.diagnostics.diagnosticsource/4.3.0",
       "hashPath": "system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.diagnostics.tracesource/4.3.0",
+      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
     },
     "System.Globalization.Calendars/4.3.0": {
       "type": "package",
@@ -2040,12 +2228,26 @@
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "hashPath": "system.security.cryptography.x509certificates.4.3.0.nupkg.sha512"
     },
+    "System.Text.Encodings.Web/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.text.encodings.web/4.5.0",
+      "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
+    },
     "System.Threading.Timer/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "",
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XmlDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "system.xml.xmldocument/4.3.0",
+      "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

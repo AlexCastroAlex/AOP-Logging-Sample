@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using PostSharp.Aspects;
 using PostSharp.Serialization;
 using System.Diagnostics;
+using System.Web;
 
 namespace AOP_Logging_PostSharp_Sample.Common.Aspects
 {
@@ -18,8 +19,8 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
         /// <param name="args"></param>
         public override void OnEntry(MethodExecutionArgs args)
         {
+            args.MethodExecutionTag = Stopwatch.StartNew();
             var logDescription = $"{args.FullMethodName()} - Starting.";
-
             if (args.Arguments != null && args.Arguments.Count > 0)
             {
                 var parameters = args?.Method?.GetParameters()?.ToDictionary(key => key.Name, value => args.Arguments[value.Position]);
@@ -27,7 +28,6 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
                 // Serialize to JSON (Newtonesof lib)
                 logDescription += $" args: {JsonConvert.SerializeObject(parameters)}";
             }
-
             Serilog.Log.Information(logDescription);
         }
 
@@ -48,7 +48,9 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
         /// <param name="args"></param>
         public override void OnExit(MethodExecutionArgs args)
         {
-            Serilog.Log.Information($"{args.FullMethodName()} - Exited.");
+            var sw = (Stopwatch)args.MethodExecutionTag;
+            sw.Stop();
+            Serilog.Log.Information($"{args.FullMethodName()} - Elapsed Time : {sw.Elapsed.Milliseconds}  - Exited.");
         }
 
         /// <summary>
