@@ -98,3 +98,4 @@ C:\0 - Sources\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\obj\Deb
 C:\0 - Sources\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\obj\Debug\net6.0\AOP-Logging-PostSharp-Sample.genruntimeconfig.cache
 C:\0 - Sources\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\obj\Debug\net6.0\PostSharp\postsharp.app.config
 C:\0 - Sources\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\bin\Debug\net6.0\Castle.Core.dll
+C:\0 - Sources\AOP-Logging-PostSharp-Sample\AOP-Logging-PostSharp-Sample\obj\Debug\net6.0\AOP-Logging-PostSharp-Sample.csproj.AssemblyReference.cache

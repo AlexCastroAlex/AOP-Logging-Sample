@@ -20,8 +20,10 @@ builder.Services.AddSingleton(new ProxyGenerator());
 builder.Services.AddScoped<IInterceptor, LoggingInterceptor>();
 builder.Services.AddProxiedScoped<IArticleRepository, ArticleRepository>();
 builder.Services.AddHttpContextAccessor();
+
+//Serilog *********the best logger ever*********
 Log.Logger = new LoggerConfiguration()
-    .WriteTo.ColoredConsole(outputTemplate: "[{Timestamp:HH:mm:ss} {CorrelationId} {Level:u3}] {Message:lj}{NewLine}{Exception}")
+    .WriteTo.ColoredConsole()
     .Enrich.FromLogContext()
     .Enrich.WithCorrelationId()
     .Enrich.WithCorrelationIdHeader()
@@ -38,21 +40,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapGet("/articles",  (IArticleService service) =>
-{
-    return  service.GetArticles();
-});
+app.MapGet("/articles", (IArticleService service) => service.GetArticles());
 
-app.MapGet("/article", (IArticleService service, int id) =>
-{
-    return service.GetArticle(id);
-});
+app.MapGet("/article", (IArticleService service, int id) => service.GetArticle(id));
 
-app.MapPost("addArticle", (IArticleService service, Article article) =>
-{
-    return service.AddArticle(article);
-}
-);
+app.MapPost("addArticle", (IArticleService service, Article article) => service.AddArticle(article));
 
 
 app.UseHttpsRedirection();

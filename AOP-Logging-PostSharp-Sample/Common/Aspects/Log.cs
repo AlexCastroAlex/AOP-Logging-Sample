@@ -25,7 +25,7 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
             {
                 var parameters = args?.Method?.GetParameters()?.ToDictionary(key => key.Name, value => args.Arguments[value.Position]);
 
-                // Serialize to JSON (Newtonesof lib)
+                // Serialize to JSON (Newtonesoft lib)
                 logDescription += $" args: {JsonConvert.SerializeObject(parameters)}";
             }
             Serilog.Log.Information(logDescription);

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Symbols LinesOfCode="93" PostSharpLinesOfCode="0" EnhancedTypesCount="1" SchemaVersion="1" PostSharpVersion="6.9.11.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[PostSharp]PostSharp.Serialization.PSerializableAttribute">
-    <Instance Declaration="#2=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log" Id="51ca530702c254de">
+    <Instance Declaration="#2=T:[AOP-Logging-PostSharp-Sample]AOP_Logging_PostSharp_Sample.Common.Aspects.Log" Id="51ca530789644725">
       <Target />
     </Instance>
   </Class>
