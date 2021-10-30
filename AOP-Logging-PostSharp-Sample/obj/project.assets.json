@@ -6535,25 +6535,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexandre.castro\\.nuget\\packages\\": {},
+    "C:\\Users\\Alex\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
+      "projectUniqueName": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
       "projectName": "AOP-Logging-PostSharp-Sample",
-      "projectPath": "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
-      "packagesPath": "C:\\Users\\alexandre.castro\\.nuget\\packages\\",
-      "outputPath": "C:\\0 - Sources\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\obj\\",
+      "projectPath": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "E:\\Sources\\Exakis\\AOP-Logging-PostSharp-Sample\\AOP-Logging-PostSharp-Sample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alexandre.castro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

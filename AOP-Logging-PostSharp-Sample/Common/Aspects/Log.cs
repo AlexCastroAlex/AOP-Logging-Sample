@@ -26,7 +26,7 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
                 var parameters = args?.Method?.GetParameters()?.ToDictionary(key => key.Name, value => args.Arguments[value.Position]);
 
                 // Serialize to JSON (Newtonesoft lib)
-                logDescription += $" args: {JsonConvert.SerializeObject(parameters)}";
+                logDescription += $" PostSharp : args: {JsonConvert.SerializeObject(parameters)}";
             }
             Serilog.Log.Information(logDescription);
         }
@@ -38,7 +38,7 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
         /// <param name="args"></param>
         public override void OnSuccess(MethodExecutionArgs args)
         {
-            Serilog.Log.Information($"{args.FullMethodName()} - Succeeded.");
+            Serilog.Log.Information($" PostSharp : {args.FullMethodName()} - Succeeded.");
         }
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
         {
             var sw = (Stopwatch)args.MethodExecutionTag;
             sw.Stop();
-            Serilog.Log.Information($"{args.FullMethodName()} - Elapsed Time : {sw.Elapsed.Milliseconds}  - Exited.");
+            Serilog.Log.Information($" PostSharp : {args.FullMethodName()} - Elapsed Time : {sw.Elapsed.Milliseconds}  - Exited.");
         }
 
         /// <summary>
@@ -60,11 +60,11 @@ namespace AOP_Logging_PostSharp_Sample.Common.Aspects
         /// <param name="args"></param>
         public override void OnException(MethodExecutionArgs args)
         {
-            var logDescription = $"{args.FullMethodName()} - Failed.";
+            var logDescription = $" PostSharp : {args.FullMethodName()} - Failed.";
 
             if (args.Exception != null)
             {
-                logDescription += $" message: {args.Exception.Message}";
+                logDescription += $" PostSharp :  message: {args.Exception.Message}";
             }
 
             Serilog.Log.Error(logDescription);

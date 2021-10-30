@@ -5,14 +5,15 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\alexandre.castro\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Alex\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\alexandre.castro\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\Alex\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props')" />
@@ -20,8 +21,8 @@
     <Import Project="$(NuGetPackageRoot)postsharp\6.9.11\build\PostSharp.props" Condition="Exists('$(NuGetPackageRoot)postsharp\6.9.11\build\PostSharp.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\alexandre.castro\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
-    <PkgPostSharp_Patterns_Common Condition=" '$(PkgPostSharp_Patterns_Common)' == '' ">C:\Users\alexandre.castro\.nuget\packages\postsharp.patterns.common\6.9.11</PkgPostSharp_Patterns_Common>
-    <PkgPostSharp_Patterns_Diagnostics Condition=" '$(PkgPostSharp_Patterns_Diagnostics)' == '' ">C:\Users\alexandre.castro\.nuget\packages\postsharp.patterns.diagnostics\6.9.11</PkgPostSharp_Patterns_Diagnostics>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Alex\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgPostSharp_Patterns_Common Condition=" '$(PkgPostSharp_Patterns_Common)' == '' ">C:\Users\Alex\.nuget\packages\postsharp.patterns.common\6.9.11</PkgPostSharp_Patterns_Common>
+    <PkgPostSharp_Patterns_Diagnostics Condition=" '$(PkgPostSharp_Patterns_Diagnostics)' == '' ">C:\Users\Alex\.nuget\packages\postsharp.patterns.diagnostics\6.9.11</PkgPostSharp_Patterns_Diagnostics>
   </PropertyGroup>
 </Project>

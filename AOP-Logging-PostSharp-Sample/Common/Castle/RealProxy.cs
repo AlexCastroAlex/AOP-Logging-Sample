@@ -14,7 +14,7 @@ namespace AOP_Logging_PostSharp_Sample.Common.Castle
 
         public void Intercept(IInvocation invocation)
         {
-            Serilog.Log.Information($"Calling method {invocation.TargetType}.{invocation.Method.Name}.");
+            Serilog.Log.Information($"Calling method with Castle : {invocation.TargetType}.{invocation.Method.Name}.");
             invocation.Proceed();
         }
     }

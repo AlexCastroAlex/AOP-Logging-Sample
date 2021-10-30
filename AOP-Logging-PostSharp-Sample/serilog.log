@@ -1,1 +1,9 @@
 2021-10-29 16:33:32.620 +02:00 [INF] Calling method AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository.GetArticles.
+2021-10-30 08:30:50.836 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Starting. args: {"repository":{}}
+2021-10-30 08:30:50.858 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Succeeded.
+2021-10-30 08:30:50.859 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_.ctor - Elapsed Time : 140  - Exited.
+2021-10-30 08:30:50.861 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Starting.
+2021-10-30 08:30:50.862 +02:00 [INF] Calling method AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository.GetArticles.
+2021-10-30 08:30:50.865 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Succeeded.
+2021-10-30 08:30:50.866 +02:00 [INF] AOP_Logging_PostSharp_Sample.Services.ArticleService_GetArticles - Elapsed Time : 5  - Exited.
+2021-10-30 08:45:18.911 +02:00 [INF] Calling method with Castle : AOP_Logging_PostSharp_Sample.Repositories.ArticleRepository.GetArticles.
