@@ -3,7 +3,7 @@ import { check, sleep } from "k6";
 import { jUnit, textSummary } from 'https://jslib.k6.io/k6-summary/0.0.1/index.js';
 
 // Common things
-const API_URL = 'https://localhost';
+const API_URL = 'https://127.0.0.1:44373';
 
 // Test setup
 export let options = {
